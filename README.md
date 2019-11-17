@@ -6,7 +6,7 @@ The assignment was to build a classifier for sentiment analysis of Hindi-English
 Before running the model, make sure to install all the equirements. You can do this by:
 pip install -r requirements.txt
 
-The dataset as well as the processed data has been provided in the directory "Dataset". Additionally, the code for preprocessinf of the raw data has also been provided in the notebook.
+The dataset as well as the processed data has been provided in the directory "Dataset". Additionally, the code for preprocessing of the raw data has also been provided in the notebook.
 
 The model can be trained and evaluated using the notebook model_train_and_evaluate. It is based on fine tuning on the pre-trained Bert Base-Uncased model. The model has been implemented using ktrain which is a lightweight wrapper for keras and allows for quixk and easy working with neural netwroks. More useful information about how to use ktrain can be found in https://github.com/amaiya/ktrain.
 
